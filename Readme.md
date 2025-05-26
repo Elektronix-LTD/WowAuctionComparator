@@ -18,7 +18,7 @@ Where 5 is OPTIONAL and it can be any number to limit number of realms to check 
 
 Here is example output and usage:
 
-    PS C:\WowAuctionComparator> python .\WowAuctionComparator.py "Green Lumberjack Shirt" 5
+    PS C:\WowAuctionComparator> python .\WowAuctionComparator.py "Green Lumberjack Shirt" 15
     Comparing prices for: Green Lumberjack Shirt
     Limiting number of realms to: 15
     Checking prices in following 'eu' realms:
