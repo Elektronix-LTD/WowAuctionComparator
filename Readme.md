@@ -4,12 +4,25 @@
 
 This World Of Warcraft specific tool allows to compare prices of the given item among many realms.
 
+## Preparation to run
+
+Script uses PlayWright library to fetch the data.
+To install all needed requirements please go to the directory with the WowAuctionComparator.py tool and run following command:
+
+    python -m pip install -r requirements.txt
+
+After that PlayWright library needs also to install its dependences, so please run this command to install all necessary components needed by PlayWright
+
+    playwright install
+    
 
 ## Command usage
 
+[!IMPORTANT] Please run it from Windows PowerShell. GitBash terminal has some difficulties which are currently not resolved.
+
 Syntax for running this amazing magic command:
 
-    python .\WowAuctionComparator.py "Green Lumberjack Shirt" 5
+    python WowAuctionComparator.py "Green Lumberjack Shirt" 5
 
 Where 5 is OPTIONAL and it can be any number to limit number of realms to check (if You are impatient and You don't want to wait ages till script will finish checking all 267 realms ;-)
 
