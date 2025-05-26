@@ -1,11 +1,11 @@
-Wow Auction Comprator Tool
+# Wow Auction Comprator Tool
 
-# Introduction
+## Introduction
 
 This World Of Warcraft specific tool allows to compare prices of the given item among many realms.
 
 
-# Command usage
+## Command usage
 
 Syntax for running this amazing magic command:
 
@@ -14,7 +14,7 @@ Syntax for running this amazing magic command:
 Where 5 is OPTIONAL and it can be any number to limit number of realms to check (if You are impatient and You don't want to wait ages till script will finish checking all 267 realms ;-)
 
 
-# Example output
+## Example output
 
 Here is example output and usage:
 
