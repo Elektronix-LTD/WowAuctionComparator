@@ -9,7 +9,7 @@ This World Of Warcraft specific tool allows to compare prices of the given item 
 
 Syntax for running this amazing magic command:
 
-python .\WowAuctionComparator.py "Green Lumberjack Shirt" 5
+    python .\WowAuctionComparator.py "Green Lumberjack Shirt" 5
 
 Where 5 is OPTIONAL and it can be any number to limit number of realms to check (if You are impatient and You don't want to wait ages till script will finish checking all 267 realms ;-)
 
