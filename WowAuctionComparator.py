@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
     tasks = [(region, realm, item_name) for realm in realms]  # 267 items!
     try:
-        with ThreadPoolExecutor(max_workers=25) as executor:
+        with ThreadPoolExecutor(max_workers=10) as executor:
             futures = [executor.submit(fetch_prices, r, re, i) for r, re, i in tasks]
 
             for future in as_completed(futures):
