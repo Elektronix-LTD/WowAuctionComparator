@@ -18,8 +18,8 @@ After that PlayWright library needs also to install its dependences, so please r
 
 ## Command usage
 
-[!IMPORTANT]
-Please run it from Windows PowerShell. GitBash terminal has some difficulties which are currently not resolved.
+> [!IMPORTANT]  
+> Please run it from Windows PowerShell. GitBash terminal has some difficulties which are currently not resolved.
 
 Syntax for running this amazing magic command:
 
